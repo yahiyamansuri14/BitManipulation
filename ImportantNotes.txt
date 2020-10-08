@@ -2,7 +2,7 @@
 2.When you right shift a number like num>>2 it will give you floor value of (N/2^i).
 3.Turn off a bit:- 
       3.1perform the operation ~(1<<(k-1)).It will give you a number which has all bits set except the K'th bit.
-      3.2perform & i.e n&~(1<<(k-1)). You will get the number which has the K'th bit off.
+      3.2perform bitwise AND i.e n&~(1<<(k-1)). You will get the number which has the K'th bit off.
 4.Turn on a bit:-
     4.1perform the operation (1<<(k-1)). It will give you a number which has all bits unset except the K'th bit.
-    4.2perform & i.e n&(1<<(k-1)). You will get the number which has the K'th bit on.
+    4.2perform bitwise OR i.e n|(1<<(k-1)). You will get the number which has the K'th bit on.
