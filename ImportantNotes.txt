@@ -6,3 +6,10 @@
 4.Turn on a bit:-
     4.1perform the operation (1<<(k-1)). It will give you a number which has all bits unset except the K'th bit.
     4.2perform bitwise OR i.e n|(1<<(k-1)). You will get the number which has the K'th bit on.
+5.In above points (3) and (4) if bit count starts from 0 then take k, if bit count start from 1 then take (k-1).
+6.To flip (0 to 1,1 to 0)a bit perform XOR operation i.e. num^(1<<i). i is the bit number you want to flip.
+7.Check number is even or odd using bitwise operator.
+      7.1 Since last bit of every even number is 0(unset) and odd number is 1(set).
+      7.2 check if this last bit is set or not using AND like num&1<<0 or num & 1.
+      7.3 if result is 0 then its an even number or its an odd number.
+8.To check power of 2 perform (num&(num-1))==0 if yes then power of 2 or not.
