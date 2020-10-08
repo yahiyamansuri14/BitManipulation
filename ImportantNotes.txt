@@ -1,0 +1,2 @@
+1.When you left shift a number like num<<2 it will give you N*(2^i) as result.
+2.When you right shift a number like num>>2 it will give you floor value of (N/2^i).
